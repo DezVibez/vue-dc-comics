@@ -45,7 +45,7 @@ ul{
 body {
   max-height: 100vh;
   background-color: black;
-  font-family: 'PT Sans Narrow', sans-serif;;
+  font-family:'Open Sans', sans-serif;;
 }
 </style>
 
