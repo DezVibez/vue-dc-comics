@@ -1,33 +1,45 @@
 <template>
-  <div id="app">
+  <div>
     <body>
-      
+      <MyHeader/>
+      <MyProducts/>
+      <MyMain/>
+      <MyFooter/>
+      <MyFollow/>
     </body>
   </div>
 </template>
 
 <script>
-//import Header from './components/Header.vue'
+import Header from './components/Header.vue'
+import Products from './components/Products.vue'
+import Main from './components/Main.vue'
+import Footer from './components/Footer.vue'
+import Follow from './components/Follow.vue'
 
-/*export default {
+
+export default {
   name: 'App',
   components: {
-    Header: Header,
+    MyHeader: Header,
+    MyProducts: Products,
+    MyMain: Main,
+    MyFooter: Footer,
+    MyFollow: Follow,
   }
-}*/
+}
 </script>
 
 <style lang="scss">
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
+
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 body {
-  height: 100vh;
+  max-height: 100vh;
   background-color: black;
 }
 </style>
