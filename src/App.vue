@@ -38,9 +38,14 @@ export default {
   padding: 0;
 }
 
+ul{
+  list-style-type: none;
+}
+
 body {
   max-height: 100vh;
   background-color: black;
+  font-family: 'PT Sans Narrow', sans-serif;;
 }
 </style>
 
