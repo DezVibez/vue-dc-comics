@@ -12,8 +12,9 @@ export default {
 <style lang="scss">
 
 #footer {
-    height: 260px;
+    height: 270px;
     background-color: white;
     display: flex;
+    background-image: url(../assets/img/footer-bg.jpg);
 }
 </style>

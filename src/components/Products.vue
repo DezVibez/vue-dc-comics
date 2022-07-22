@@ -12,7 +12,7 @@ export default {
 <style lang="scss">
 
 #products {
-    height: 100px;
+    height: 90px;
     background-color: rgb(28,28,28);
     display: flex;
     }
