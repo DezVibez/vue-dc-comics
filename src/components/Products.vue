@@ -4,8 +4,9 @@
     <div class="container">
   
         <div v-for="(card, index) in cards" :key="index" class="cards">
-        <img :src="card.thumb" />
-        <h3>{{ card.series }}</h3>
+          <img :src="card.thumb" />
+          <h3>{{ card.series }}</h3>
+        </div>
         
 
 
