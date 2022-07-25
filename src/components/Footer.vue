@@ -1,7 +1,7 @@
 <template>
   <div id="footer" >
     <div class="container">
-      <div>
+      <div class="liste">
         <ul>
           <li><H4>DC COMICS</H4></li>
           <li>Characters</li>
@@ -23,7 +23,7 @@
       </div>
 
       <div class="big-logo">
-        <img src="../assets/img/dc-logo-bg.png" alt="">
+        
       </div>
 
     </div>
@@ -46,13 +46,16 @@ export default {
 }
 
 #footer .container {
-    padding: 10px 0;
     width: 70%;
     height: auto;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
   }
+
+#footer .liste {
+  padding: 10px 0;
+}
 
 #footer ul {
   font-size: 12px;
@@ -66,11 +69,13 @@ export default {
 }
 
 #footer .big-logo{
-  height: 80%;
-  width: auto;
+  height: 270px;
+  width: 50%;
+  background-repeat: no-repeat;
   background-image: url(../assets/img/dc-logo-bg.png);
+  background-position-y: -6rem;
+  background-position-x: 0rem;
   background-size: cover;
-  background-position-y: 10%;
 }
 
 

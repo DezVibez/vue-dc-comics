@@ -30,7 +30,6 @@ export default {
 
 
 #header {
-    margin-top: 75px;
     padding: 14px 0;
     background-color: white;
     

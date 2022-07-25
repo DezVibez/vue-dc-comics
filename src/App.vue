@@ -2,7 +2,7 @@
   <div>
     <body>
       <MyHeader/>
-      <MyProducts/>
+      <MyProducts :cards="cards"/>
       <MyMain/>
       <MyFooter/>
       <MyFollow/>
