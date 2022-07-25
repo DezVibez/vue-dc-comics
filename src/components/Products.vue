@@ -2,7 +2,13 @@
 
   <div id="products">
     <div class="container">
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda molestias quisquam inventore officia, asperiores architecto facere, excepturi vel iusto eos natus consectetur, recusandae consequatur voluptatum. Dignissimos vel rerum quam ratione?
+  
+        <div v-for="(card, index) in cards" :key="index" class="cards">
+        <img :src="card.thumb" />
+        <h3>{{ card.series }}</h3>
+        
+
+
     </div>
   </div>
 
@@ -28,5 +34,12 @@ export default {
     justify-content: space-between;
     align-items: center;
   }
+
+  #products .container .cards {
+    padding: 10px;
+    width: 100px;
+    height: 100px;
+  }
+
 </style>
 
