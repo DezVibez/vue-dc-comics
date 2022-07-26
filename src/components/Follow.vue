@@ -9,7 +9,7 @@ export default {
   name: 'MyFollow',}
 </script>
 
-<style lang="scss">
+<style lang="scss" scoped>
 
 #follow {
     height: 80px;

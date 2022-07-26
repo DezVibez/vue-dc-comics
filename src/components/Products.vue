@@ -1,6 +1,11 @@
 <template>
 
   <div id="products">
+
+    <div class="productsJumbo">
+
+    </div>
+
     <div class="container">
   
         <div v-for="(card, index) in cards" :key="index" class="card">
@@ -57,6 +62,11 @@ export default {
     font-size: 16px;
     display: inline-block;
     width: 90%
+  }
+
+  .productsJumbo {
+    width: 100%;
+    height: 300px
   }
  
 

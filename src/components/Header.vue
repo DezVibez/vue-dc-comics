@@ -25,7 +25,7 @@ export default {
   name: 'MyHeader',}
 </script>
 
-<style lang="scss">
+<style lang="scss" scoped>
 
 
 
